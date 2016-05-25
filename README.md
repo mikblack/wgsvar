@@ -5,6 +5,8 @@ Last modified 2016-05-26
 This repository contains a collection of scripts that can be used to perform variant detection in whole genome sequence
 data from a pair of tumour and normal samples obtained from a Sleeping Beauty mouse model of cancer.
 
+Github repository: https://github.com/mikblack/wgsvar
+
 ### Compute details
 
 _Minimum hardware specs:_
