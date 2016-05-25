@@ -1,4 +1,9 @@
-## Notes for running WGS analysis workflow
+## WGS variant detection (wgsvar) README
+
+Last modified 2016-05-26
+
+This repository contains a collection of scripts that can be used to perform variant detection in whole genome sequence
+data from a pair of tumour and normal samples obtained from a Sleeping Beauty mouse model of cancer.
 
 ### Compute details
 
