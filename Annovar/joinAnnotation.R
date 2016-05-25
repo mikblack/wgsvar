@@ -37,7 +37,7 @@ for(i in seq(samples)){
 ## Output progress per chromosome
 ## - Total SNVs
 ## - Non-synomynous SNVs
-## - Significant non-synomynous SNVs (FDR adjusted: chromosome-wide)
+## - Significant non-synomynous SNVs (FWER adjusted: chromosome-wide)
     cat(i,samples[i],":",nrow(out[[i]]),":",sum(out[[i]]$func=="nonsynonymous SNV"),":",
         sum(out[[i]]$func=="nonsynonymous SNV" & p.adjust(out[[i]]$somatic_p_value)<0.05),"\n")
 }
